@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GitHubTest" time="1.65" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\dev\git\jenkins-shared-libraries\target\test-classes;C:\dev\git\jenkins-shared-libraries\target\classes;C:\Users\Manni\.m2\repository\org\codehaus\groovy\groovy-all\2.4.17\groovy-all-2.4.17.jar;C:\Users\Manni\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Manni\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Manni\.m2\repository\com\lesfurets\jenkins-pipeline-unit\1.1\jenkins-pipeline-unit-1.1.jar;C:\Users\Manni\.m2\repository\com\cloudbees\groovy-cps\1.12\groovy-cps-1.12.jar;C:\Users\Manni\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar;C:\Users\Manni\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Manni\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Manni\.m2\repository\org\apache\ivy\ivy\2.4.0\ivy-2.4.0.jar;C:\Users\Manni\.m2\repository\org\assertj\assertj-core\3.4.1\assertj-core-3.4.1.jar;C:\Users\Manni\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Manni\AppData\Local\Temp\surefire3154680110615599059\surefirebooter8072407901343495379.jar C:\Users\Manni\AppData\Local\Temp\surefire3154680110615599059 2020-11-26T08-11-26_027-jvmRun1 surefire4854461863997340875tmp surefire_04986214730070622082tmp"/>
+    <property name="surefire.test.class.path" value="C:\dev\git\jenkins-shared-libraries\target\test-classes;C:\dev\git\jenkins-shared-libraries\target\classes;C:\Users\Manni\.m2\repository\org\codehaus\groovy\groovy-all\2.4.17\groovy-all-2.4.17.jar;C:\Users\Manni\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Manni\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Manni\.m2\repository\com\lesfurets\jenkins-pipeline-unit\1.1\jenkins-pipeline-unit-1.1.jar;C:\Users\Manni\.m2\repository\com\cloudbees\groovy-cps\1.12\groovy-cps-1.12.jar;C:\Users\Manni\.m2\repository\com\google\guava\guava\11.0.1\guava-11.0.1.jar;C:\Users\Manni\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Manni\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Manni\.m2\repository\org\apache\ivy\ivy\2.4.0\ivy-2.4.0.jar;C:\Users\Manni\.m2\repository\org\assertj\assertj-core\3.4.1\assertj-core-3.4.1.jar;C:\Users\Manni\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Manni"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="basedir" value="C:\dev\git\jenkins-shared-libraries"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Manni\AppData\Local\Temp\surefire3154680110615599059\surefirebooter8072407901343495379.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="Manni"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Manni\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Manni\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="C:\dev\git\jenkins-shared-libraries"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Manni\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Manni\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Calibre2;C:\Android;C:\Windows\System32;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\dev\apache-maven-3.5.3\bin;C:\WINDOWS\System32\OpenSSH;C:\dev\gradle-6.4\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Amazon\AWSSAMCLI\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Users\Manni\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Manni\AppData\Local\Programs\Python\Python36-32;C:\Users\Manni\AppData\Local\Microsoft\WindowsApps;C:\Users\Manni\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Manni\.dotnet\tools;C:\Users\Manni\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="fileChangedIn will look through old builds for change sets" classname="GitHubTest" time="1.524"/>
+  <testcase name="fileChangedIn requires path or paths" classname="GitHubTest" time="0.032"/>
+  <testcase name="fileChangedIn for pull request" classname="GitHubTest" time="0.014"/>
+  <testcase name="fileChangedIn returns true if no old successful build" classname="GitHubTest" time="0.035"/>
+</testsuite>
